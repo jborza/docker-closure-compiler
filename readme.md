@@ -7,5 +7,6 @@ docker run -i --rm jborza/closure-compiler
 ```
 
 You can pass things to it from outside of Docker like this:
+```
 curl -sSL 'https://raw.githubusercontent.com/jborza/scpo/master/ScrumPoker/Scripts/poker.js' | docker run -i --rm jborza/closure-compiler
 ```
